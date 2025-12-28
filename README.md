@@ -27,6 +27,6 @@ GFilter App (gfilter)
 The Data Consumer. It reads JSON from standard input, filters it based on logic, and outputs the result as JSON.
 
 Flag,Example,Description
---key,priority,The JSON key you want to inspect.
---op,>,"The operator: >, <, or ==."
---value,2,The value to compare against (numeric or string).
+--key, priority, The JSON key you want to inspect.
+--op, >, "The operator: >, <, or ==."
+--value, 2, The value to compare against (numeric or string).
